@@ -62,8 +62,8 @@ const navigate = useNavigate()
                 </div>
     
                 <div className="max-w-lg md:mx-12 md:order-2">
-                    <h1 className="text-3xl font-medium tracking-wide text-gray-800 dark:text-white md:text-4xl">{scrollData.title}</h1>
-                    <p className="mt-4 text-gray-600 dark:text-gray-300">{scrollData.description}</p>
+                    <h1 className="text-3xl font-medium tracking-wide text-white md:text-4xl">{scrollData.title}</h1>
+                    <p className="mt-4 text-white">{scrollData.description}</p>
                     <div className="mt-6">
                         <button type='button' onClick={() => navigate("/download")} className="block px-3 py-3 font-semibold text-center text-white transition-colors duration-200 transform bg-yellow-600 rounded-md md:inline hover:bg-black">Download from App Store</button>
                     </div>
