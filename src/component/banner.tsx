@@ -1,8 +1,8 @@
 import  { useState } from 'react'
 import BannerImg0 from "../assets/Onboard0.png"
-import BannerImg1 from "../assets/Onboard1.png"
-import BannerImg2 from "../assets/Onboard2.png"
-import BannerImg3 from "../assets/Onboard3.png"
+import BannerImg1 from "../assets/onboard1.png"
+import BannerImg2 from "../assets/onboard2.png"
+import BannerImg3 from "../assets/onboard3.png"
 import { useNavigate } from 'react-router-dom'
 
 
